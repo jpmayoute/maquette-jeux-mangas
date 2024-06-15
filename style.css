@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* en tête */
+header {
+    background-color: #39327B;
+}
+
+.container {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.dflex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header ul, footer ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+header li {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Section bienvenue */
+.bienvenue {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/playstation-6689793_1280.jpg");
+    padding: 80px 20px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: aqua;
+    font-weight: 400;
+}
+
+.slogan {
+    color: #FFBF46;
+    font-size: 5em;
+    font-weight: 400;
+}
+
+.intro {
+    max-width: 700px;
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+/* Section articles */
+.articles {
+    background-color: #FFBF46;
+    text-align: center;
+    padding: 40px 20px 60px 20px;
+}
+
+article {
+    width: 360px;
+}
+
+article img {
+    border-radius: 20px 0;
+}
+
+article p {
+    text-align: justify;
+}
+
+.btn-small {
+    background-color: aliceblue;
+    color: black;
+    padding: 8px 16px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Section compagny */
+.compagny {
+    padding: 40px 20px 60px 20px;
+}
+
+.col {
+    width: 50%;
+}
+
+.compagny img {
+    width: 30em;
+    box-shadow: 30px 30px 0px #FFBF46;
+}
+
+.compagny p {
+    text-align: justify;
+    padding: 0 30px;
+}
+
+/* Section contact */
+.contact {
+    background-image: url(images/background-contact.png);
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+input {
+    width: 45%;
+    height: 30px;
+    border: 1px solid #808080;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+form p {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[placeholder], textarea[placeholder] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.2em;
+}
+
+/* pied de page */
+footer {
+    background-color: #39327B;
+    padding: 10px;
+    color: white;
+}
+
+.col-30 {
+    width: 30%;
+    text-align: center;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+footer img {
+    padding-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid colour white;
+    padding-top: 10px;
+}
